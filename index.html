@@ -20,6 +20,16 @@
   </body>
 
   <script>
-    //write code here
+    const output = document.getElementById("number");
+    let counter = 0;
+    function decrease(){
+      counter--;
+      output.innerText = counter;
+    }
+
+    function increase(){
+      counter++;
+      output.innerText = counter;
+    }
   </script>
 </html>
